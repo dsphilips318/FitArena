@@ -21,7 +21,7 @@ struct CalendarView: View {
                         .fontWeight(.heavy)
                         .multilineTextAlignment(.center)
                 }
-                .navigationBarTitle("Calendar")
+                .navigationBarTitle("Calendar", displayMode: .inline)
                 .navigationBarItems(
                     leading: NavigationLink(
                         destination: WorkoutsView(),

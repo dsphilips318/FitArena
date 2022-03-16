@@ -21,7 +21,7 @@ struct ProgressView: View {
                         .fontWeight(.heavy)
                         .multilineTextAlignment(.center)
                 }
-                .navigationBarTitle("Progress")
+                .navigationBarTitle("Progress", displayMode: .inline)
                 .navigationBarItems(
                     leading: NavigationLink(
                         destination: WorkoutsView(),

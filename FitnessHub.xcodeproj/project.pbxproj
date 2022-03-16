@@ -20,6 +20,7 @@
 		405860C327E14D19007FE1A9 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860C227E14D19007FE1A9 /* View.swift */; };
 		405860C527E1E503007FE1A9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860C427E1E502007FE1A9 /* SearchBarView.swift */; };
 		405860C727E1EAF5007FE1A9 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860C627E1EAF5007FE1A9 /* WorkoutsViewModel.swift */; };
+		405860C927E1FF34007FE1A9 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860C827E1FF33007FE1A9 /* UIApplication.swift */; };
 		406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406253352791DDAE001ACB70 /* FitnessHubApp.swift */; };
 		4062533A2791DDB2001ACB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406253392791DDB2001ACB70 /* Assets.xcassets */; };
 		4062533D2791DDB2001ACB70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		405860C227E14D19007FE1A9 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		405860C427E1E502007FE1A9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		405860C627E1EAF5007FE1A9 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
+		405860C827E1FF33007FE1A9 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		406253322791DDAE001ACB70 /* FitnessHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406253352791DDAE001ACB70 /* FitnessHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHubApp.swift; sourceTree = "<group>"; };
 		406253392791DDB2001ACB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				404B133427C7E180002F37C1 /* Color.swift */,
 				405860C227E14D19007FE1A9 /* View.swift */,
+				405860C827E1FF33007FE1A9 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405860C927E1FF34007FE1A9 /* UIApplication.swift in Sources */,
 				405860A327DD4D63007FE1A9 /* HomeView.swift in Sources */,
 				406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */,
 				405860C327E14D19007FE1A9 /* View.swift in Sources */,
