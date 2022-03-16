@@ -2,7 +2,7 @@
 //  FitnessHubApp.swift
 //  FitnessHub
 //
-//  Created by CS on 1/14/22.
+//  Created by Daniel Shola-Philips on 1/14/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct FitnessHubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
