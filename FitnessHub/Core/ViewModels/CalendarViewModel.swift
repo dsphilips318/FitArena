@@ -1,5 +1,5 @@
 //
-//  WorkoutsViewModel.swift
+//  CalendarViewModel.swift
 //  FitnessHub
 //
 //  Created by CS on 3/16/22.
@@ -7,9 +7,8 @@
 
 import Foundation
 
-class WorkoutsViewModel: ObservableObject {
+class CalendarViewModel: ObservableObject {
     
     @Published var menuOpened: Bool = false
-    @Published var searchText: String = ""
     
 }

@@ -17,6 +17,7 @@ struct AppTheme {
     let primary = Color("PrimaryAppColor")
     let secondary = Color("SecondaryAppColor")
     let background = Color("ScreenColor")
+    let placeholder = Color("PlaceholderColor")
     
     let mainText = Color("MainTextColor")
     let secondaryText = Color("SecondaryTextColor")

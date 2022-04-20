@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct CalendarView: View {
+    
+    @StateObject private var vm: CalendarViewModel
+    
+    init(){
+        _vm = StateObject(wrappedValue: CalendarViewModel())
+    }
+    
     var body: some View {
         ZStack {
             NavigationView {
@@ -23,11 +30,7 @@ struct CalendarView: View {
                 }
                 .navigationBarTitle("Calendar", displayMode: .inline)
                 .navigationBarItems(
-                    leading: NavigationLink(
-                        destination: WorkoutsView(),
-                        label: {
-                            Image(systemName: "line.3.horizontal")
-                        }),
+                    leading: SideMenuButtonView(menuOpened: $vm.menuOpened),
                     trailing:
                         NavigationLink(
                             destination: WorkoutsView(),

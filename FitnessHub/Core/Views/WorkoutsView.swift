@@ -21,11 +21,7 @@ struct WorkoutsView: View {
                 workoutview()
                     .navigationBarTitle("Workouts", displayMode: .inline)
                     .navigationBarItems(
-                        leading: NavigationLink(
-                            destination: ProgressView(),
-                            label: {
-                                Image(systemName: "line.3.horizontal")
-                            }),
+                        leading: SideMenuButtonView(menuOpened: $vm.menuOpened),
                         trailing:
                             NavigationLink(
                                 destination: ProgressView(),

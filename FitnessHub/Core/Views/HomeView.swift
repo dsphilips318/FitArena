@@ -9,30 +9,41 @@ import SwiftUI
 
 struct HomeView: View {
     
+    @StateObject private var vm: HomeViewModel
+    
+    init(){
+        _vm = StateObject(wrappedValue: HomeViewModel())
+    }
+    
     var body: some View {
-            NavigationView {
-                ScrollView {
-                    homeview()
-                    .navigationBarTitle("FitnessHub")
-                    .navigationBarItems(
-                        leading: NavigationLink(
-                            destination: WorkoutsView(),
-                            label: {
-                                Image(systemName: "line.3.horizontal")
-                            }),
-                        trailing:
-                            NavigationLink(
-                                destination: WorkoutsView(),
-                                label: {
-                                    HStack{
-                                        Text("User")
-                                        Image(systemName: "person.crop.circle")
-                                    }
-                                }))
-                } //: Scroll View
+            ZStack {
+                NavigationView {
+                    ScrollView {
+                        homeview()
+                            .navigationBarTitle("FitnessHub")
+                            .navigationBarItems(
+                                leading: SideMenuButtonView(menuOpened: $vm.menuOpened),
+                                trailing:
+                                    NavigationLink(
+                                        destination: WorkoutsView(),
+                                        label: {
+                                            HStack{
+                                                Text("User")
+                                                Image(systemName: "person.crop.circle")
+                                            }
+                                        }))
+                        
+                        
+                    } //: Scroll View
+                    
+                } //: ZStack
+                
+                SideMenuBarView(
+                    width: UIScreen.main.bounds.width/1.6,
+                    menuOpened: vm.menuOpened,
+                    toggleMenu: toggleMenu)
             } //: NavigationView
             
-            //.navigationViewStyle(StackNavigationViewStyle())
 //            .navigationBarModifier(
 //                backgroundColor: UIColor(Color.theme.primary),
 //                foregroundColor: UIColor(Color.theme.secondary),
@@ -72,10 +83,19 @@ extension HomeView {
 
         } //: VStack
     } //: homeview
+    
+    func toggleMenu() {
+        vm.menuOpened.toggle()
+    }
 } //: extension
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        Group {
+            HomeView()
+            
+            HomeView()
+                .preferredColorScheme(.dark)
+        }
     }
 }

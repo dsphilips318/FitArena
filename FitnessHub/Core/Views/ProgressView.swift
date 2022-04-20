@@ -8,6 +8,13 @@
 import SwiftUI
 
 struct ProgressView: View {
+    
+    @StateObject private var vm: ProgressViewModel
+    
+    init(){
+        _vm = StateObject(wrappedValue: ProgressViewModel())
+    }
+    
     var body: some View {
         ZStack {
             NavigationView {
@@ -23,11 +30,7 @@ struct ProgressView: View {
                 }
                 .navigationBarTitle("Progress", displayMode: .inline)
                 .navigationBarItems(
-                    leading: NavigationLink(
-                        destination: WorkoutsView(),
-                        label: {
-                            Image(systemName: "line.3.horizontal")
-                        }))
+                    leading: SideMenuButtonView(menuOpened: $vm.menuOpened))
             }
             .navigationViewStyle(StackNavigationViewStyle())
         }
