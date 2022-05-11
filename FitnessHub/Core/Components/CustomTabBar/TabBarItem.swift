@@ -1,6 +1,6 @@
 //
 //  TabBarItem.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/14/22.
 //

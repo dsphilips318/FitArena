@@ -1,6 +1,6 @@
 //
 //  RegisterButtonView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/25/22.
 //

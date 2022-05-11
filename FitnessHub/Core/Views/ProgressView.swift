@@ -1,6 +1,6 @@
 //
 //  ProgressView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/12/22.
 //

@@ -40,8 +40,14 @@
 		406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406253352791DDAE001ACB70 /* FitnessHubApp.swift */; };
 		4062533A2791DDB2001ACB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406253392791DDB2001ACB70 /* Assets.xcassets */; };
 		4062533D2791DDB2001ACB70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */; };
-		406253462791EFAB001ACB70 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406253452791EFAB001ACB70 /* Exercise.swift */; };
-		4062534827920267001ACB70 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062534727920267001ACB70 /* Workout.swift */; };
+		4065D6DD282BF07800D8FFDE /* SingularActivityWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6DC282BF07800D8FFDE /* SingularActivityWorkout.swift */; };
+		4065D6DF282BF0C300D8FFDE /* TimedDrillWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6DE282BF0C300D8FFDE /* TimedDrillWorkout.swift */; };
+		4065D6E1282BF0F000D8FFDE /* AMRAPWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6E0282BF0F000D8FFDE /* AMRAPWorkout.swift */; };
+		4065D6E3282BF18F00D8FFDE /* SetsAndRepsWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6E2282BF18F00D8FFDE /* SetsAndRepsWorkout.swift */; };
+		4065D6E5282BF22000D8FFDE /* LaddersWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6E4282BF22000D8FFDE /* LaddersWorkout.swift */; };
+		4065D6E7282BF4C700D8FFDE /* EMOMWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6E6282BF4C700D8FFDE /* EMOMWorkout.swift */; };
+		4065D6E9282BF51800D8FFDE /* TabataWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6E8282BF51800D8FFDE /* TabataWorkout.swift */; };
+		4065D6EB282BFAED00D8FFDE /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6EA282BFAED00D8FFDE /* Activity.swift */; };
 		40761CEA27EE50CC00DA4D05 /* RegisterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40761CE927EE50CC00DA4D05 /* RegisterButtonView.swift */; };
 		40761CEC27EE560000DA4D05 /* LogInInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40761CEB27EE560000DA4D05 /* LogInInitialView.swift */; };
 		408830E02796232600E9BAEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408830DF2796232500E9BAEC /* MainView.swift */; };
@@ -78,12 +84,18 @@
 		405860D527E28461007FE1A9 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		405860D727E2848A007FE1A9 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
 		405860D927E3E627007FE1A9 /* FitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitUser.swift; sourceTree = "<group>"; };
-		406253322791DDAE001ACB70 /* FitnessHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406253322791DDAE001ACB70 /* FitArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406253352791DDAE001ACB70 /* FitnessHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHubApp.swift; sourceTree = "<group>"; };
 		406253392791DDB2001ACB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		406253452791EFAB001ACB70 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		4062534727920267001ACB70 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		4065D6DC282BF07800D8FFDE /* SingularActivityWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingularActivityWorkout.swift; sourceTree = "<group>"; };
+		4065D6DE282BF0C300D8FFDE /* TimedDrillWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedDrillWorkout.swift; sourceTree = "<group>"; };
+		4065D6E0282BF0F000D8FFDE /* AMRAPWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMRAPWorkout.swift; sourceTree = "<group>"; };
+		4065D6E2282BF18F00D8FFDE /* SetsAndRepsWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsAndRepsWorkout.swift; sourceTree = "<group>"; };
+		4065D6E4282BF22000D8FFDE /* LaddersWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaddersWorkout.swift; sourceTree = "<group>"; };
+		4065D6E6282BF4C700D8FFDE /* EMOMWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMOMWorkout.swift; sourceTree = "<group>"; };
+		4065D6E8282BF51800D8FFDE /* TabataWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabataWorkout.swift; sourceTree = "<group>"; };
+		4065D6EA282BFAED00D8FFDE /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		40761CE927EE50CC00DA4D05 /* RegisterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButtonView.swift; sourceTree = "<group>"; };
 		40761CEB27EE560000DA4D05 /* LogInInitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInInitialView.swift; sourceTree = "<group>"; };
 		408830DF2796232500E9BAEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -154,8 +166,8 @@
 		404B133727C7E780002F37C1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4062534727920267001ACB70 /* Workout.swift */,
-				406253452791EFAB001ACB70 /* Exercise.swift */,
+				4065D6DB282BF04900D8FFDE /* Workouts */,
+				4065D6EA282BFAED00D8FFDE /* Activity.swift */,
 				405860D927E3E627007FE1A9 /* FitUser.swift */,
 			);
 			path = Models;
@@ -228,7 +240,7 @@
 		406253332791DDAE001ACB70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				406253322791DDAE001ACB70 /* FitnessHub.app */,
+				406253322791DDAE001ACB70 /* FitArena.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,6 +267,20 @@
 				4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4065D6DB282BF04900D8FFDE /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				4065D6E2282BF18F00D8FFDE /* SetsAndRepsWorkout.swift */,
+				4065D6E8282BF51800D8FFDE /* TabataWorkout.swift */,
+				4065D6E6282BF4C700D8FFDE /* EMOMWorkout.swift */,
+				4065D6E4282BF22000D8FFDE /* LaddersWorkout.swift */,
+				4065D6DE282BF0C300D8FFDE /* TimedDrillWorkout.swift */,
+				4065D6DC282BF07800D8FFDE /* SingularActivityWorkout.swift */,
+				4065D6E0282BF0F000D8FFDE /* AMRAPWorkout.swift */,
+			);
+			path = Workouts;
 			sourceTree = "<group>";
 		};
 		4090CEFF2799B60100B4623B /* Extensions */ = {
@@ -299,7 +325,7 @@
 				4005072F27ECDF90001A8AF1 /* FirebaseFirestoreSwift-Beta */,
 			);
 			productName = FitnessHub;
-			productReference = 406253322791DDAE001ACB70 /* FitnessHub.app */;
+			productReference = 406253322791DDAE001ACB70 /* FitArena.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -317,7 +343,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4062532D2791DDAE001ACB70 /* Build configuration list for PBXProject "FitnessHub" */;
+			buildConfigurationList = 4062532D2791DDAE001ACB70 /* Build configuration list for PBXProject "FitArena" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -360,37 +386,43 @@
 				405860D627E28461007FE1A9 /* CalendarViewModel.swift in Sources */,
 				405860C927E1FF34007FE1A9 /* UIApplication.swift in Sources */,
 				405860A327DD4D63007FE1A9 /* HomeView.swift in Sources */,
+				4065D6E7282BF4C700D8FFDE /* EMOMWorkout.swift in Sources */,
 				4005073527ED2919001A8AF1 /* PreRegistrationView.swift in Sources */,
 				40761CEC27EE560000DA4D05 /* LogInInitialView.swift in Sources */,
 				405860D827E2848A007FE1A9 /* ProgressViewModel.swift in Sources */,
 				406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */,
+				4065D6DF282BF0C300D8FFDE /* TimedDrillWorkout.swift in Sources */,
 				405860C327E14D19007FE1A9 /* View.swift in Sources */,
 				405860B327DEE623007FE1A9 /* CustomTabBarView.swift in Sources */,
 				40DC5C32280D964D00C6852E /* RegistrationViewModel.swift in Sources */,
 				405860D427E280DE007FE1A9 /* HomeViewModel.swift in Sources */,
 				405860C527E1E503007FE1A9 /* SearchBarView.swift in Sources */,
+				4065D6DD282BF07800D8FFDE /* SingularActivityWorkout.swift in Sources */,
 				40761CEA27EE50CC00DA4D05 /* RegisterButtonView.swift in Sources */,
-				406253462791EFAB001ACB70 /* Exercise.swift in Sources */,
 				40DC5C35280F09BD00C6852E /* AuthenticationService.swift in Sources */,
 				405860CB27E2634E007FE1A9 /* SideMenuBarView.swift in Sources */,
 				405860CD27E264BD007FE1A9 /* SideMenuButtonView.swift in Sources */,
 				405860C727E1EAF5007FE1A9 /* WorkoutsViewModel.swift in Sources */,
 				405860BB27DFAAD7007FE1A9 /* TabBarItem.swift in Sources */,
 				408830E02796232600E9BAEC /* MainView.swift in Sources */,
+				4065D6E9282BF51800D8FFDE /* TabataWorkout.swift in Sources */,
 				40DC5C2C280BC41000C6852E /* CustomTextFieldView.swift in Sources */,
 				405860A727DD4DEE007FE1A9 /* CalendarView.swift in Sources */,
-				4062534827920267001ACB70 /* Workout.swift in Sources */,
 				405860B927DFA6FB007FE1A9 /* TabBarItemsPreferenceKey.swift in Sources */,
 				40DC5C39280F38AC00C6852E /* LogoView.swift in Sources */,
 				405860D027E268DB007FE1A9 /* SideMenuContentView.swift in Sources */,
 				405860A927DD4E85007FE1A9 /* ProgressView.swift in Sources */,
+				4065D6E3282BF18F00D8FFDE /* SetsAndRepsWorkout.swift in Sources */,
 				405860BE27E0EE0B007FE1A9 /* WorkoutTileView.swift in Sources */,
+				4065D6EB282BFAED00D8FFDE /* Activity.swift in Sources */,
 				405860B527DEEE02007FE1A9 /* CustomTabBarContainerView.swift in Sources */,
+				4065D6E5282BF22000D8FFDE /* LaddersWorkout.swift in Sources */,
 				405860A527DD4DA0007FE1A9 /* WorkoutsView.swift in Sources */,
 				4005073727ED2FBC001A8AF1 /* SignUpInitialView.swift in Sources */,
 				404B133527C7E180002F37C1 /* Color.swift in Sources */,
 				405860D227E27A1B007FE1A9 /* SettingsView.swift in Sources */,
 				40DC5C37280F0E9400C6852E /* RouterView.swift in Sources */,
+				4065D6E1282BF0F000D8FFDE /* AMRAPWorkout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +552,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitnessHub/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FitArena/Preview Content\"";
 				DEVELOPMENT_TEAM = F9RDZ5259N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -537,8 +569,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitnessHub";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitArena";
+				PRODUCT_NAME = FitArena;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -552,7 +584,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitnessHub/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FitArena/Preview Content\"";
 				DEVELOPMENT_TEAM = F9RDZ5259N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -569,8 +601,8 @@
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitnessHub";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitArena";
+				PRODUCT_NAME = FitArena;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -580,7 +612,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4062532D2791DDAE001ACB70 /* Build configuration list for PBXProject "FitnessHub" */ = {
+		4062532D2791DDAE001ACB70 /* Build configuration list for PBXProject "FitArena" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4062533E2791DDB2001ACB70 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  AuthenticationService.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 4/19/22.
 //

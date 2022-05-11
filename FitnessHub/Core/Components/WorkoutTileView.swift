@@ -1,6 +1,6 @@
 //
 //  WorkoutTileView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/15/22.
 //
@@ -27,7 +27,7 @@ struct WorkoutTileView: View {
                 HStack {
                     Spacer()
                     
-                    Image(systemName: workout.iconName)
+                    Image(systemName: workout.icon)
                         .padding(.bottom, 3)
                         .padding(.trailing, 3)
                         .font(.system(size: 85))
@@ -42,10 +42,10 @@ struct WorkoutTileView: View {
     }
 }
 
-struct WorkoutTileView_Previews: PreviewProvider {
-//    @State var workout1: Workout = Workout(title: "Leg Day #1 - Jeff Nippard", color: Color.workout.red)
-//
-    static var previews: some View {
-        WorkoutTileView(workout: Workout(title: "Leg Day #1 - Jeff Nippard", color: Color.workout.red))
-    }
-}
+//struct WorkoutTileView_Previews: PreviewProvider {
+////    @State var workout1: Workout = Workout(title: "Leg Day #1 - Jeff Nippard", color: Color.workout.red)
+////
+//    static var previews: some View {
+//        WorkoutTileView(workout: Workout(title: "Leg Day #1 - Jeff Nippard", color: Color.workout.red))
+//    }
+//}

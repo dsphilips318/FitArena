@@ -1,6 +1,6 @@
 //
 //  SideMenuBarView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/16/22.
 //

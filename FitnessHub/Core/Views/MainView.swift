@@ -1,6 +1,6 @@
 //
 //  MainView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 1/17/22.
 //

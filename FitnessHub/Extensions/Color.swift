@@ -1,6 +1,6 @@
 //
 //  Color.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 2/24/22.
 //

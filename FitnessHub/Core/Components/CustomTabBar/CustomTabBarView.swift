@@ -1,6 +1,6 @@
 //
 //  CustomTabBarView.swift
-//  FitnessHub
+//  FitArena
 //
 //  Created by CS on 3/13/22.
 //

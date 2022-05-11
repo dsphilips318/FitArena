@@ -1,6 +1,6 @@
 //
-//  FitnessHubApp.swift
-//  FitnessHub
+//  FitArenaApp.swift
+//  FitArena
 //
 //  Created by Daniel Shola-Philips on 1/14/22.
 //
@@ -18,7 +18,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct FitnessHubApp: App {
+struct FitArenaApp: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @StateObject var authenticationService: AuthenticationService = AuthenticationService.instance
