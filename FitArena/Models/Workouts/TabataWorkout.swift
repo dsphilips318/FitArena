@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-// Not Finished
+
 struct TabataWorkout : Workout {
     var title: String
     var color: Color
