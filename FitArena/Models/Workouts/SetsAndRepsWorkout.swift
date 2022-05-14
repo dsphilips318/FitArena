@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-// Not Finished
+
 struct SetsAndRepsWorkout : Workout {
     var title: String
     var color: Color
@@ -16,5 +16,5 @@ struct SetsAndRepsWorkout : Workout {
     var category: String
     let type = "Sets and Reps"
     
-    
+    var activities: [Activity]
 }
