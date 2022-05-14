@@ -37,7 +37,7 @@
 		405860D627E28461007FE1A9 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860D527E28461007FE1A9 /* CalendarViewModel.swift */; };
 		405860D827E2848A007FE1A9 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860D727E2848A007FE1A9 /* ProgressViewModel.swift */; };
 		405860DA27E3E628007FE1A9 /* FitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405860D927E3E627007FE1A9 /* FitUser.swift */; };
-		406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406253352791DDAE001ACB70 /* FitnessHubApp.swift */; };
+		406253362791DDAE001ACB70 /* FitArenaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406253352791DDAE001ACB70 /* FitArenaApp.swift */; };
 		4062533A2791DDB2001ACB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406253392791DDB2001ACB70 /* Assets.xcassets */; };
 		4062533D2791DDB2001ACB70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */; };
 		4065D6DD282BF07800D8FFDE /* SingularActivityWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4065D6DC282BF07800D8FFDE /* SingularActivityWorkout.swift */; };
@@ -84,8 +84,8 @@
 		405860D527E28461007FE1A9 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		405860D727E2848A007FE1A9 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
 		405860D927E3E627007FE1A9 /* FitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitUser.swift; sourceTree = "<group>"; };
-		406253322791DDAE001ACB70 /* FitArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		406253352791DDAE001ACB70 /* FitnessHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessHubApp.swift; sourceTree = "<group>"; };
+		406253322791DDAE001ACB70 /* FitArenaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitArenaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		406253352791DDAE001ACB70 /* FitArenaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitArenaApp.swift; sourceTree = "<group>"; };
 		406253392791DDB2001ACB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4062533C2791DDB2001ACB70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4065D6DC282BF07800D8FFDE /* SingularActivityWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingularActivityWorkout.swift; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 		406253292791DDAE001ACB70 = {
 			isa = PBXGroup;
 			children = (
-				406253342791DDAE001ACB70 /* FitnessHub */,
+				406253342791DDAE001ACB70 /* FitArena */,
 				406253332791DDAE001ACB70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -240,15 +240,15 @@
 		406253332791DDAE001ACB70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				406253322791DDAE001ACB70 /* FitArena.app */,
+				406253322791DDAE001ACB70 /* FitArenaa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		406253342791DDAE001ACB70 /* FitnessHub */ = {
+		406253342791DDAE001ACB70 /* FitArena */ = {
 			isa = PBXGroup;
 			children = (
-				406253352791DDAE001ACB70 /* FitnessHubApp.swift */,
+				406253352791DDAE001ACB70 /* FitArenaApp.swift */,
 				40DC5C36280F0E9400C6852E /* RouterView.swift */,
 				4090CEFF2799B60100B4623B /* Extensions */,
 				40DC5C33280F08C400C6852E /* Services */,
@@ -258,7 +258,7 @@
 				4005072427ECD4A9001A8AF1 /* GoogleService-Info.plist */,
 				4062533B2791DDB2001ACB70 /* Preview Content */,
 			);
-			path = FitnessHub;
+			path = FitArena;
 			sourceTree = "<group>";
 		};
 		4062533B2791DDB2001ACB70 /* Preview Content */ = {
@@ -325,7 +325,7 @@
 				4005072F27ECDF90001A8AF1 /* FirebaseFirestoreSwift-Beta */,
 			);
 			productName = FitnessHub;
-			productReference = 406253322791DDAE001ACB70 /* FitArena.app */;
+			productReference = 406253322791DDAE001ACB70 /* FitArenaa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -390,7 +390,7 @@
 				4005073527ED2919001A8AF1 /* PreRegistrationView.swift in Sources */,
 				40761CEC27EE560000DA4D05 /* LogInInitialView.swift in Sources */,
 				405860D827E2848A007FE1A9 /* ProgressViewModel.swift in Sources */,
-				406253362791DDAE001ACB70 /* FitnessHubApp.swift in Sources */,
+				406253362791DDAE001ACB70 /* FitArenaApp.swift in Sources */,
 				4065D6DF282BF0C300D8FFDE /* TimedDrillWorkout.swift in Sources */,
 				405860C327E14D19007FE1A9 /* View.swift in Sources */,
 				405860B327DEE623007FE1A9 /* CustomTabBarView.swift in Sources */,
@@ -570,7 +570,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitArena";
-				PRODUCT_NAME = FitArena;
+				PRODUCT_NAME = FitArenaa;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -602,7 +602,7 @@
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesis-Tech.FitArena";
-				PRODUCT_NAME = FitArena;
+				PRODUCT_NAME = FitArenaa;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
